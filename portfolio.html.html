@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Portfolio — Dinusha</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Dinusha</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/portfolio.html" aria-current="page">Portfolio</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Portfolio</h1>
+    <p class="lead">Filter by category to explore selected work.</p>
+
+    <div class="filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="software">Software</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="security">Security</button>
+    </div>
+
+    <div class="projects-grid" id="projectsGrid">
+      <!-- Project items -->
+      <article class="project" data-cat="ai">
+        <img src="https://images.unsplash.com/photo-1505682634904-d7c71f84a6a5?auto=format&fit=crop&w=800&q=60" alt="AI project">
+        <h3>Explainable ML Prototype</h3>
+        <p>Interpretable model with visualization tools.</p>
+      </article>
+
+      <article class="project" data-cat="software">
+        <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=800&q=60" alt="Software project">
+        <h3>Cross-platform App</h3>
+        <p>React-based app with offline support.</p>
+      </article>
+
+      <article class="project" data-cat="design">
+        <img src="https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?auto=format&fit=crop&w=800&q=60" alt="Design project">
+        <h3>Rebrand for Local Cafe</h3>
+        <p>Logo, menu, and social assets.</p>
+      </article>
+
+      <article class="project" data-cat="security">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=60" alt="Security project">
+        <h3>Security Audit Report</h3>
+        <p>Vulnerability findings and remediation guidance.</p>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Dinusha</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
+

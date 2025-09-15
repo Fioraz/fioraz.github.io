@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contact — Dinusha</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/">Dinusha</a>
+      <nav class="nav">
+        <a href="/">Home</a>
+        <a href="/portfolio.html">Portfolio</a>
+        <a href="/about.html">About</a>
+        <a href="/contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container contact-page">
+    <h1>Contact</h1>
+    <p class="lead">I'd love to hear about your project. Fill in the form or email hello@example.com</p>
+
+    <form id="contactForm" class="contact-form" action="#" method="post" onsubmit="return handleContactSubmit(event)">
+      <label>Full name
+        <input type="text" name="name" id="name" required>
+      </label>
+      <label>Email
+        <input type="email" name="email" id="email" required>
+      </label>
+      <label>Message
+        <textarea name="message" id="message" rows="6" required></textarea>
+      </label>
+      <p><button class="btn" type="submit">Send message</button></p>
+      <p id="formStatus" class="form-status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Dinusha</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
+
