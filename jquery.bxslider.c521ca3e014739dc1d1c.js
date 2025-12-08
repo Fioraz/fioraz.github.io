@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkjouwweb=self.webpackChunkjouwweb||[]).push([[177],{5514:function(n,e,u){u.r(e),u.d(e,{initSlider:function(){return t}});var r=u(7889),i=u.n(r);u(6555);function t(n,e){return i()(n).bxSlider(e)}}}]);
-//# sourceMappingURL=jquery.bxslider.c521ca3e014739dc1d1c.js.map
