@@ -1,0 +1,63 @@
+:root{
+
+
+/* hero */
+.hero{padding:64px 0;text-align:center}
+.hero .intro{max-width:900px;margin:0 auto}
+.hero h1{margin:6px 0;font-size:28px;color:var(--primary)}
+.hero p.lead{font-size:18px;color:#233446;line-height:1.6}
+.profile-photo{width:180px;height:180px;border-radius:50%;object-fit:cover;border:6px solid rgba(0,126,252,0.08);box-shadow:0 8px 30px rgba(15,45,75,.08);display:block;margin:18px auto}
+
+
+/* sections */
+.section{padding:42px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.card{background:#fff;border-radius:12px;padding:18px;box-shadow:0 6px 18px rgba(15,45,75,.06);border:1px solid rgba(15,45,75,.04)}
+.card h3{margin-top:0;color:var(--primary)}
+.card p{color:#2f3f4a}
+
+
+/* to-top diamond button */
+.to-top{position:fixed;left:50%;transform:translateX(-50%) rotate(45deg);bottom:22px;background:var(--accent);width:56px;height:56px;display:flex;align-items:center;justify-content:center;color:#fff;border-radius:6px;box-shadow:0 8px 18px rgba(0,0,0,.15);cursor:pointer;z-index:120}
+.to-top span{transform:rotate(-45deg);display:inline-block;font-size:18px}
+
+
+/* footer */
+.site-footer{background:var(--primary);color:var(--nav-text);padding:28px 0;margin-top:40px}
+.footer-inner{display:flex;flex-direction:column;align-items:center;gap:12px}
+.footer-logo{height:80px;display:block}
+.footer-top{display:flex;gap:18px;align-items:center}
+
+
+/* contact social */
+.social-grid{display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
+.social-card{background:#fff;padding:10px 14px;border-radius:10px;display:flex;gap:10px;align-items:center;border:1px solid rgba(15,45,75,.06);box-shadow:0 6px 18px rgba(15,45,75,.04)}
+.social-card a{color:var(--primary);text-decoration:none;font-weight:600}
+
+
+/* responsive */
+@media(max-width:820px){
+#mobile-nav-toggle{display:block}
+.nav-list{position:absolute;right:20px;top:68px;flex-direction:column;background:var(--primary);padding:12px;border-radius:8px;display:none}
+.nav-list.show{display:flex}
+}
+
+
+/* small helpers */
+.kicker{display:inline-block;background:linear-gradient(90deg,var(--accent),#3fb1ff);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:800}
+
+
+/* accessibility focus */
+a:focus{outline:3px solid rgba(0,126,252,.16);outline-offset:3px}
+
+
+
+
+/* small print */
+.small{font-size:14px;color:#6b7b88}
+
+
+
+
+/* refine typography */
+h2{color:var(--primary)}
