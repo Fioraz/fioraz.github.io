@@ -1,35 +1,91 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Contact</title><link rel="stylesheet" href="styles.css"/></head>
+<head>
+  <meta charset="UTF-8" />
+  <title>Dinusha Dissanayaka – Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact details for Dinusha Dissanayaka, including LinkedIn, GitHub, ORCID, Facebook and YouTube." />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="assets/js/main.js" defer></script>
+</head>
 <body>
-<div id="include-header"></div>
-<main class="container">
-<section class="section">
-<h1>Contact</h1>
-<div class="social-grid">
-<div class="social-card"><strong>LinkedIn Account</strong><a href="#">www.linkedin.com</a></div>
-<div class="social-card"><strong>GitHub Account</strong><a href="#">github.com</a></div>
-<div class="social-card"><strong>ORCID Account</strong><a href="#">orcid.org</a></div>
-<div class="social-card"><strong>Subscribe to my YouTube Channel</strong><a href="#">YouTube</a></div>
-<div class="social-card"><strong>Follow me on Facebook</strong><a href="#">facebook.com</a></div>
-</div>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand">
+        <img src="https://primary.jwwb.nl/public/s/v/u/temp-vqldesfnupfefrnhachj/a6wqe7/f-1.png?enable-io=true&crop=1.6423%3A1&width=226" alt="Logo" class="brand-logo" />
+        <span class="brand-title">Where Secure AI Meets Creative Innovation</span>
+      </a>
 
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
 
-<h2 class="section" style="margin-top:26px">Get in Touch!</h2>
-<form class="card" action="#" method="post" style="max-width:720px;margin:12px auto;">
-<label class="small">Name *<br><input type="text" name="name" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8"></label>
-<label class="small">Email address *<br><input type="email" name="email" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8"></label>
-<label class="small">Message *<br><textarea name="message" required style="width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef8;min-height:130px"></textarea></label>
-<label class="small"><input type="checkbox" name="sendcopy"> Send me a copy</label>
-<div style="margin-top:12px"><button type="submit" style="background:var(--accent);color:#fff;border:0;padding:10px 16px;border-radius:8px;cursor:pointer">Submit form</button></div>
-</form>
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="hobbies.html" class="nav-link">Hobbies</a></li>
+          <li><a href="publications.html" class="nav-link">Publications</a></li>
+          <li><a href="volunteering.html" class="nav-link">Volunteering</a></li>
+          <li><a href="contact.html" class="nav-link active">Contact</a></li>
+        </ul>
+      </nav>
 
+      <button class="theme-toggle" type="button" aria-label="Toggle light/dark mode">
+        <span class="theme-icon">☾</span>
+        <span>Dark</span>
+      </button>
+    </div>
+  </header>
 
-<p class="small" style="text-align:center;margin-top:8px">Hope you have a lovely day!! ❤️</p>
-</section>
-</main>
-<div class="to-top" title="Back to top"><span>▲</span></div>
-<div id="include-footer"></div>
-<script src="scripts.js"></script>
-</body>
-</html>
+  <main>
+    <section class="section">
+      <div class="container reveal-on-scroll">
+        <div class="section-header">
+          <h1 class="section-title">Contact</h1>
+          <p class="section-subtitle">
+            <!-- TODO: refine with your own text -->
+            Feel free to reach out for collaborations, questions about my work, or just to say hello.
+          </p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Social / direct links -->
+          <div>
+            <h2 style="margin-top: 0;">Connect with me</h2>
+            <p>
+              You can find me on the platforms below. Each link opens in a new tab.
+            </p>
+
+            <div class="social-grid">
+              <!-- LinkedIn -->
+              <a class="social-card" href="https://www.linkedin.com/in/dinusha-dissanayaka-d20270ad/" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon linkedin">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+                <div>
+                  <div class="social-label">LinkedIn</div>
+                  <div class="social-handle">/dinusha-dissanayaka-d20270ad/</div>
+                </div>
+              </a>
+
+              <!-- GitHub -->
+              <a class="social-card" href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon github">
+                  <i class="fa-brands fa-github"></i>
+                </div>
+                <div>
+                  <div class="social-label">GitHub</div>
+                  <div class="social-handle">@Fioraz</div>
+                </div>
+              </a>
+
+              <!-- ORCID -->
+              <a class="social-card" href="https://orcid.org/YOUR-ORCID-ID" target="_blank" rel="noopener noreferrer">
+                <div class="social-icon orcid">
+                  <i class="fa-brands fa-or
