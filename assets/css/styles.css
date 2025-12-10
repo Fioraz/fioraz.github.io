@@ -422,7 +422,7 @@ body.dark .profile-badge {
 }
 
 /* =========================
-   Cards / Grids
+   Cards / Grids / Lists
    ========================= */
 
 .grid {
@@ -520,6 +520,30 @@ body.dark .project-tag {
 body.dark .chip {
   background-color: rgba(148, 163, 184, 0.12);
   color: #e5e7eb;
+}
+
+/* Skills List */
+
+.skill-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.6rem 0 0;
+  font-size: 0.85rem;
+}
+
+.skill-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  margin-bottom: 0.2rem;
+}
+
+.skill-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #007efc;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 /* =========================
@@ -974,7 +998,7 @@ body.dark .form-textarea {
   }
 
   .tab-button {
-    flex: 1 1 100%;    /* two per row */
+    flex: 1 1 100%;    /* one per row */
     text-align: center;
     margin: 0.1rem 0;
   }
