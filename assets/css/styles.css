@@ -758,6 +758,11 @@ body.dark .form-textarea {
   width: auto;
 }
 
+.footer-contact {
+  justify-self: end;
+  text-align: right;
+}
+
 .footer-copy {
   text-align: center;
   margin-top: 1.8rem;
@@ -861,6 +866,12 @@ body.dark .form-textarea {
     justify-content: center;
   }
 
+  .footer-contact {
+    justify-self: center;
+    text-align: center;
+    margin-top: 0.8rem;
+  }
+  
   .footer-links {
     display: flex;
     flex-wrap: wrap;
