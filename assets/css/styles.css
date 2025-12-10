@@ -79,6 +79,29 @@ a:focus {
   padding: 0 1.5rem;
 }
 
+.cookie-banner {
+  position: fixed;             /* must be fixed */
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  max-width: 540px;
+  width: calc(100% - 2rem);
+  background-color: rgba(15, 45, 75, 0.98);
+  color: #e5e7eb;
+  border-radius: 16px;
+  padding: 0.9rem 1.1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.45);
+  font-size: 0.85rem;
+  z-index: 1200;               /* above other UI */
+}
+
+.cookie-banner.hidden {
+  display: none;
+}
+
 .section {
   padding: 4.5rem 0 4rem;
 }

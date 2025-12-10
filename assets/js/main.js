@@ -180,4 +180,30 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+
+  // =======================
+  // Cookie banner
+  // =======================
+  const cookieBanner = document.getElementById("cookieBanner");
+  const cookieAccept = document.getElementById("cookieAccept");
+
+  if (cookieBanner && cookieAccept) {
+    const consentKey = "cookieConsent";
+
+    const hideBanner = () => {
+      cookieBanner.classList.add("hidden");
+    };
+
+    // Show immediately unless previously accepted
+    const storedConsent = localStorage.getItem(consentKey);
+    if (storedConsent === "accepted") {
+      hideBanner();
+    }
+
+    cookieAccept.addEventListener("click", () => {
+      localStorage.setItem(consentKey, "accepted");
+      hideBanner();
+    });
+  }
+
 });
