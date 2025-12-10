@@ -70,17 +70,57 @@ document.addEventListener("DOMContentLoaded", () => {
   // Scroll to top button
   // =======================
   const scrollBtn = document.getElementById("scrollToTop");
+  const footerEl = document.querySelector(".site-footer");
+
   if (scrollBtn) {
-    const toggleScrollBtn = () => {
+    let baseBottom = null; // px value of the default bottom offset
+
+    const updateScrollBtnPosition = () => {
+      if (!baseBottom) {
+        // Read the default bottom value from CSS (in px)
+        baseBottom = parseFloat(getComputedStyle(scrollBtn).bottom) || 26;
+      }
+
+      // Show / hide button based on scroll
       if (window.scrollY > 250) {
         scrollBtn.classList.add("visible");
       } else {
         scrollBtn.classList.remove("visible");
       }
+
+      if (!footerEl) {
+        scrollBtn.style.bottom = `${baseBottom}px`;
+        return;
+      }
+
+      const footerRect = footerEl.getBoundingClientRect();
+      const btnRect = scrollBtn.getBoundingClientRect();
+      const buttonHeight = btnRect.height;
+
+      // Button position if we leave it at its baseBottom from CSS
+      const buttonTopAtBase = window.innerHeight - baseBottom - buttonHeight;
+
+      // If the footer is high enough that the button would overlap it,
+      // move the button up so only half of its height enters the footer area.
+      if (footerRect.top < buttonTopAtBase + buttonHeight / 2) {
+        // Desired top so that half the button overlaps into the footer
+        const desiredTop = footerRect.top - buttonHeight / 2;
+        const newBottom = window.innerHeight - desiredTop - buttonHeight;
+
+        scrollBtn.style.bottom = `${Math.max(newBottom, baseBottom)}px`;
+      } else {
+        // Reset to original CSS position
+        scrollBtn.style.bottom = `${baseBottom}px`;
+      }
     };
 
-    window.addEventListener("scroll", toggleScrollBtn);
-    toggleScrollBtn();
+    window.addEventListener("scroll", updateScrollBtnPosition);
+    window.addEventListener("resize", () => {
+      baseBottom = null; // recalc on resize
+      updateScrollBtnPosition();
+    });
+
+    updateScrollBtnPosition();
 
     scrollBtn.addEventListener("click", () => {
       window.scrollTo({

@@ -1,0 +1,30 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#0F2D4B"/>
+  <!-- Central server/node -->
+  <rect x="340" y="150" width="120" height="90" rx="14" fill="#0B2239"/>
+  <rect x="350" y="162" width="100" height="10" rx="5" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="350" y="180" width="80" height="8" rx="4" fill="#007EFC"/>
+  <rect x="350" y="198" width="60" height="8" rx="4" fill="#007EFC" fill-opacity="0.7"/>
+  <!-- Orbiting nodes -->
+  <circle cx="230" cy="160" r="26" fill="#007EFC"/>
+  <circle cx="240" cy="310" r="24" fill="#FFFFFF" fill-opacity="0.1"/>
+  <circle cx="570" cy="160" r="26" fill="#FFFFFF" fill-opacity="0.14"/>
+  <circle cx="560" cy="310" r="26" fill="#007EFC" fill-opacity="0.9"/>
+  <!-- Connections -->
+  <path d="M280 170C320 180 340 190 340 195" stroke="#A2B5C7" stroke-width="2" stroke-dasharray="5 6"/>
+  <path d="M460 195C480 190 520 180 560 170" stroke="#A2B5C7" stroke-width="2" stroke-dasharray="5 6"/>
+  <path d="M350 230C310 250 270 280 250 300" stroke="#A2B5C7" stroke-width="2" stroke-dasharray="5 6"/>
+  <path d="M450 230C490 250 530 280 550 300" stroke="#A2B5C7" stroke-width="2" stroke-dasharray="5 6"/>
+  <!-- Threat alert icon -->
+  <circle cx="400" cy="320" r="56" fill="#0B2239"/>
+  <circle cx="400" cy="320" r="50" stroke="#F97316" stroke-width="4" stroke-dasharray="5 6"/>
+  <path d="M400 290L414 328H386L400 290Z" fill="#F97316"/>
+  <rect x="394" y="332" width="12" height="16" rx="3" fill="#F97316"/>
+  <!-- Small log panel -->
+  <rect x="110" y="340" width="200" height="80" rx="18" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="130" y="356" width="120" height="10" rx="5" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="130" y="374" width="80" height="8" rx="4" fill="#007EFC"/>
+  <rect x="490" y="340" width="200" height="80" rx="18" fill="#FFFFFF" fill-opacity="0.05"/>
+  <rect x="510" y="356" width="140" height="10" rx="5" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="510" y="374" width="90" height="8" rx="4" fill="#007EFC"/>
+</svg>

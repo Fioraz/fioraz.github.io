@@ -1,0 +1,36 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#0F2D4B"/>
+  <!-- Phone body -->
+  <rect x="120" y="80" width="220" height="340" rx="28" fill="white"/>
+  <rect x="140" y="105" width="180" height="40" rx="14" fill="#007EFC" fill-opacity="0.09"/>
+  <rect x="150" y="115" width="90" height="10" rx="5" fill="#0F2D4B" fill-opacity="0.9"/>
+  <rect x="150" y="133" width="60" height="6" rx="3" fill="#007EFC"/>
+  <!-- Phone sections -->
+  <rect x="140" y="165" width="180" height="60" rx="16" fill="#F3F4F6"/>
+  <rect x="150" y="178" width="80" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="150" y="196" width="110" height="8" rx="4" fill="#007EFC" fill-opacity="0.8"/>
+  <rect x="140" y="240" width="180" height="60" rx="16" fill="#F3F4F6"/>
+  <rect x="150" y="253" width="110" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="150" y="271" width="80" height="8" rx="4" fill="#007EFC" fill-opacity="0.8"/>
+  <rect x="140" y="315" width="180" height="70" rx="18" fill="#F9FAFB"/>
+  <!-- Simple chart -->
+  <polyline points="155,365 180,345 205,355 230,330 255,340 280,320" stroke="#007EFC" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="180" cy="345" r="4" fill="#007EFC"/>
+  <circle cx="230" cy="330" r="4" fill="#007EFC"/>
+  <circle cx="280" cy="320" r="4" fill="#007EFC"/>
+  <!-- Shield for security/privacy -->
+  <path d="M510 132C540 132 568 120 584 108C600 120 628 132 658 132C658 182 642 228 617 259C597 284 573 298 584 292C573 298 549 284 529 259C504 228 488 182 488 132C504 132 520 132 510 132Z" fill="white" fill-opacity="0.08"/>
+  <path d="M584 118L559 127V150C559 176 568 192 584 202C600 192 609 176 609 150V127L584 118Z" stroke="#FFFFFF" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M573 154L582 164L597 144" stroke="#007EFC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Data / log cards -->
+  <rect x="420" y="220" width="280" height="60" rx="16" fill="white" fill-opacity="0.04"/>
+  <rect x="435" y="235" width="120" height="10" rx="5" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="435" y="253" width="160" height="8" rx="4" fill="#007EFC" fill-opacity="0.9"/>
+  <rect x="420" y="300" width="280" height="60" rx="16" fill="white" fill-opacity="0.04"/>
+  <rect x="435" y="315" width="150" height="10" rx="5" fill="#E5E7EB" fill-opacity="0.7"/>
+  <rect x="435" y="333" width="90" height="8" rx="4" fill="#007EFC" fill-opacity="0.7"/>
+  <!-- Magnifying glass -->
+  <circle cx="420" cy="180" r="34" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="420" cy="180" r="20" stroke="#007EFC" stroke-width="3"/>
+  <line x1="445" y1="205" x2="462" y2="222" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+</svg>

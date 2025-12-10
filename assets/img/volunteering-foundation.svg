@@ -1,0 +1,39 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#FFFFFF"/>
+  <!-- Ground -->
+  <rect x="0" y="250" width="800" height="170" fill="#0F2D4B" fill-opacity="0.06"/>
+  <!-- House / shelter outline -->
+  <path d="M200 260V190L280 140L360 190V260" stroke="#0F2D4B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="220" y="205" width="120" height="80" rx="10" fill="#0F2D4B" fill-opacity="0.06"/>
+  <rect x="250" y="220" width="60" height="45" rx="8" fill="#0F2D4B" fill-opacity="0.12"/>
+  <!-- Paw inside house -->
+  <circle cx="280" cy="190" r="12" fill="#007EFC"/>
+  <circle cx="275" cy="186" r="3" fill="#FFFFFF"/>
+  <circle cx="285" cy="186" r="3" fill="#FFFFFF"/>
+  <circle cx="277" cy="192" r="3" fill="#FFFFFF"/>
+  <circle cx="283" cy="192" r="3" fill="#FFFFFF"/>
+  <!-- Path leading to house -->
+  <path d="M280 285C265 300 260 315 260 330C260 340 264 352 270 360" stroke="#A2B5C7" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 5"/>
+  <!-- Supportive hands under house -->
+  <path d="M215 290C225 310 240 320 260 320H300C320 320 335 310 345 290" stroke="#0F2D4B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Animals silhouettes -->
+  <rect x="420" y="210" width="120" height="60" rx="22" fill="#FBBF77"/>
+  <circle cx="420" cy="210" r="24" fill="#FBBF77"/>
+  <circle cx="414" cy="204" r="5" fill="#0F172A"/>
+  <circle cx="426" cy="204" r="5" fill="#0F172A"/>
+  <rect x="416" y="214" width="12" height="4" rx="2" fill="#0F172A"/>
+  <!-- Cat -->
+  <rect x="570" y="220" width="80" height="50" rx="18" fill="#0F2D4B" fill-opacity="0.9"/>
+  <circle cx="580" cy="215" r="16" fill="#0F2D4B" fill-opacity="0.9"/>
+  <polygon points="572,206 568,196 576,200" fill="#0F2D4B"/>
+  <polygon points="588,206 592,196 584,200" fill="#0F2D4B"/>
+  <circle cx="575" cy="214" r="4" fill="#F9FAFB"/>
+  <circle cx="585" cy="214" r="4" fill="#F9FAFB"/>
+  <rect x="576" y="222" width="10" height="4" rx="2" fill="#F9FAFB"/>
+  <!-- Title bar -->
+  <rect x="420" y="120" width="220" height="32" rx="16" fill="#0F2D4B"/>
+  <rect x="430" y="128" width="160" height="16" rx="8" fill="#FFFFFF" fill-opacity="0.96"/>
+  <!-- Tagline lines -->
+  <rect x="420" y="165" width="260" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="420" y="185" width="220" height="8" rx="4" fill="#CBD5E1"/>
+</svg>

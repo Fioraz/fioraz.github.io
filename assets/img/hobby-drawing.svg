@@ -1,0 +1,18 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#FFFFFF"/>
+  <!-- Sketchbook -->
+  <rect x="130" y="80" width="280" height="260" rx="24" fill="#F3F4F6"/>
+  <rect x="155" y="105" width="110" height="10" rx="5" fill="#A2B5C7"/>
+  <!-- Spiral -->
+  <circle cx="155" cy="90" r="4" fill="#0F2D4B"/>
+  <circle cx="175" cy="90" r="4" fill="#0F2D4B"/>
+  <circle cx="195" cy="90" r="4" fill="#0F2D4B"/>
+  <!-- Simple drawing lines -->
+  <path d="M170 160C200 140 230 150 260 170C290 190 320 200 340 195" stroke="#007EFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M190 210C210 200 230 202 250 212C270 222 295 225 315 220" stroke="#A2B5C7" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Pencil -->
+  <polygon points="460,160 520,210 495,235 435,185" fill="#FACC15"/>
+  <polygon points="435,185 420,210 440,220 455,195" fill="#0F2D4B"/>
+  <polygon points="520,210 530,224 505,248 495,235" fill="#111827"/>
+  <rect x="445" y="210" width="40" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.7"/>
+</svg>

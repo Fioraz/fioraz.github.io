@@ -1,0 +1,44 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#FFFFFF"/>
+  <!-- Header -->
+  <rect x="0" y="0" width="800" height="90" rx="32" fill="#0F2D4B"/>
+  <rect x="60" y="30" width="300" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="60" y="56" width="220" height="8" rx="4" fill="#A2B5C7"/>
+  <!-- Left: risk register -->
+  <rect x="60" y="120" width="300" height="260" rx="20" fill="#F3F4F6"/>
+  <rect x="80" y="140" width="190" height="10" rx="5" fill="#A2B5C7"/>
+  <!-- Risk rows -->
+  <rect x="80" y="170" width="230" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="80" y="195" width="210" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="80" y="220" width="230" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="80" y="245" width="200" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="80" y="270" width="230" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="80" y="295" width="210" height="10" rx="5" fill="#E5E7EB"/>
+  <!-- Highlighted row -->
+  <rect x="75" y="320" width="250" height="24" rx="12" fill="#007EFC" fill-opacity="0.09"/>
+  <!-- Right: risk matrix -->
+  <rect x="390" y="120" width="350" height="260" rx="20" fill="#F9FAFB"/>
+  <rect x="410" y="138" width="190" height="10" rx="5" fill="#A2B5C7"/>
+  <!-- Matrix grid -->
+  <rect x="430" y="170" width="260" height="200" rx="10" fill="#FFFFFF"/>
+  <!-- Columns -->
+  <rect x="440" y="180" width="70" height="50" rx="8" fill="#FECACA"/>
+  <rect x="515" y="180" width="70" height="50" rx="8" fill="#FEF3C7"/>
+  <rect x="590" y="180" width="70" height="50" rx="8" fill="#DCFCE7"/>
+  <rect x="440" y="235" width="70" height="50" rx="8" fill="#FECACA"/>
+  <rect x="515" y="235" width="70" height="50" rx="8" fill="#FEF3C7"/>
+  <rect x="590" y="235" width="70" height="50" rx="8" fill="#DCFCE7"/>
+  <rect x="440" y="290" width="70" height="50" rx="8" fill="#FECACA"/>
+  <rect x="515" y="290" width="70" height="50" rx="8" fill="#FEF3C7"/>
+  <rect x="590" y="290" width="70" height="50" rx="8" fill="#DCFCE7"/>
+  <!-- Marker in high-risk cell -->
+  <circle cx="455" cy="205" r="8" fill="#B91C1C"/>
+  <!-- Axes labels -->
+  <rect x="430" y="345" width="40" height="16" rx="8" fill="#0F2D4B" fill-opacity="0.8"/>
+  <rect x="650" y="185" width="16" height="40" rx="8" fill="#0F2D4B" fill-opacity="0.8"/>
+  <!-- Bottom strip -->
+  <rect x="60" y="400" width="680" height="50" rx="20" fill="#0F2D4B" fill-opacity="0.05"/>
+  <rect x="80" y="414" width="240" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="340" y="414" width="180" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="540" y="414" width="120" height="10" rx="5" fill="#E5E7EB"/>
+</svg>

@@ -1,0 +1,27 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#0F2D4B"/>
+  <!-- Game controller -->
+  <rect x="90" y="160" width="260" height="120" rx="60" fill="#FFFFFF"/>
+  <circle cx="150" cy="215" r="24" fill="#0F2D4B"/>
+  <rect x="144" y="204" width="12" height="22" rx="4" fill="#FFFFFF"/>
+  <rect x="139" y="209" width="22" height="12" rx="4" fill="#FFFFFF"/>
+  <circle cx="260" cy="205" r="10" fill="#007EFC"/>
+  <circle cx="285" cy="220" r="10" fill="#007EFC"/>
+  <circle cx="260" cy="235" r="10" fill="#007EFC"/>
+  <circle cx="235" cy="220" r="10" fill="#007EFC"/>
+  <!-- Cable -->
+  <path d="M220 160C235 140 255 132 280 132C315 132 340 148 360 170" stroke="#A2B5C7" stroke-width="3" stroke-linecap="round"/>
+  <!-- Fitness band / heart rate -->
+  <rect x="420" y="145" width="260" height="70" rx="20" fill="#FFFFFF" fill-opacity="0.1"/>
+  <polyline points="440,180 455,175 470,185 485,165 500,185 515,170 530,180 545,175 560,182 575,170 590,185 605,175 620,180"
+            stroke="#FF4B8B" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Running shoe icon -->
+  <rect x="430" y="245" width="140" height="80" rx="20" fill="#FFFFFF"/>
+  <path d="M445 290C455 270 470 260 495 260H525C535 260 545 263 552 269L570 285C572 287 571 290 568 292C560 298 547 302 532 302H465C455 302 447 298 445 290Z"
+        fill="#007EFC"/>
+  <rect x="448" y="272" width="14" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="468" y="268" width="16" height="4" rx="2" fill="#FFFFFF" fill-opacity="0.9"/>
+  <!-- Text bars -->
+  <rect x="430" y="240" width="110" height="8" rx="4" fill="#FFFFFF" fill-opacity="0.3"/>
+  <rect x="430" y="332" width="180" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.35"/>
+</svg>

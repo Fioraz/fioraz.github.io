@@ -1,0 +1,24 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#FFFFFF"/>
+  <!-- Sky -->
+  <rect x="0" y="0" width="800" height="210" fill="#E0F2FF"/>
+  <!-- Plane -->
+  <path d="M190 160L270 145L325 125L333 135L290 160L340 170L345 180L280 177L250 190L240 188L250 170L190 160Z"
+        fill="#0F2D4B"/>
+  <rect x="248" y="144" width="34" height="6" rx="3" fill="#FFFFFF"/>
+  <!-- Sun -->
+  <circle cx="650" cy="80" r="32" fill="#FACC15"/>
+  <!-- Ground & road -->
+  <path d="M0 210H800V420H0V210Z" fill="#0F2D4B" fill-opacity="0.9"/>
+  <rect x="0" y="270" width="800" height="60" fill="#111827"/>
+  <rect x="80" y="295" width="80" height="8" rx="4" fill="#F9FAFB"/>
+  <rect x="220" y="295" width="80" height="8" rx="4" fill="#F9FAFB"/>
+  <rect x="360" y="295" width="80" height="8" rx="4" fill="#F9FAFB"/>
+  <rect x="500" y="295" width="80" height="8" rx="4" fill="#F9FAFB"/>
+  <rect x="640" y="295" width="80" height="8" rx="4" fill="#F9FAFB"/>
+  <!-- Small location pins -->
+  <circle cx="200" cy="240" r="10" fill="#007EFC"/>
+  <rect x="197" y="240" width="6" height="16" rx="3" fill="#007EFC"/>
+  <circle cx="600" cy="250" r="10" fill="#007EFC"/>
+  <rect x="597" y="250" width="6" height="16" rx="3" fill="#007EFC"/>
+</svg>

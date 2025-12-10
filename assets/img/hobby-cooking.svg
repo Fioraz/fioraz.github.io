@@ -1,0 +1,19 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#FFFFFF"/>
+  <!-- Table -->
+  <rect x="0" y="260" width="800" height="160" fill="#0F2D4B" fill-opacity="0.04"/>
+  <!-- Plate -->
+  <circle cx="260" cy="210" r="80" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="4"/>
+  <circle cx="260" cy="210" r="50" fill="#F97316" fill-opacity="0.9"/>
+  <circle cx="245" cy="200" r="12" fill="#FACC15"/>
+  <circle cx="275" cy="222" r="10" fill="#22C55E"/>
+  <circle cx="242" cy="230" r="8" fill="#0F172A" fill-opacity="0.8"/>
+  <!-- Cutlery -->
+  <rect x="340" y="150" width="10" height="100" rx="5" fill="#A2B5C7"/>
+  <rect x="355" y="150" width="10" height="100" rx="5" fill="#A2B5C7"/>
+  <rect x="380" y="150" width="18" height="90" rx="9" fill="#A2B5C7"/>
+  <rect x="380" y="150" width="18" height="40" rx="9" fill="#E5E7EB"/>
+  <!-- Steam -->
+  <path d="M230 130C230 120 238 114 238 104C238 96 232 90 232 82" stroke="#A2B5C7" stroke-width="3" stroke-linecap="round"/>
+  <path d="M275 130C275 120 283 114 283 104C283 96 277 90 277 82" stroke="#A2B5C7" stroke-width="3" stroke-linecap="round"/>
+</svg>

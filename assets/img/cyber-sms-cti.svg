@@ -1,0 +1,41 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#0F2D4B"/>
+  <!-- Phone -->
+  <rect x="130" y="80" width="220" height="340" rx="30" fill="white"/>
+  <rect x="148" y="105" width="184" height="60" rx="16" fill="#007EFC" fill-opacity="0.08"/>
+  <!-- Safe SMS bubble -->
+  <rect x="160" y="120" width="120" height="30" rx="16" fill="#007EFC"/>
+  <polygon points="220,150 235,160 220,160" fill="#007EFC"/>
+  <circle cx="175" cy="134" r="4" fill="white"/>
+  <circle cx="187" cy="134" r="4" fill="white"/>
+  <circle cx="199" cy="134" r="4" fill="white"/>
+  <!-- Suspicious SMS bubble -->
+  <rect x="160" y="190" width="140" height="34" rx="16" fill="#FCA5A5"/>
+  <polygon points="188,224 173,234 188,234" fill="#FCA5A5"/>
+  <path d="M178 206L184 222H172L178 206Z" fill="#B91C1C"/>
+  <rect x="175" y="224" width="6" height="8" rx="2" fill="#B91C1C"/>
+  <!-- Timeline / indicators -->
+  <rect x="148" y="260" width="184" height="36" rx="16" fill="#F3F4F6"/>
+  <rect x="160" y="270" width="80" height="8" rx="4" fill="#007EFC" fill-opacity="0.7"/>
+  <rect x="160" y="286" width="120" height="6" rx="3" fill="#A2B5C7"/>
+  <rect x="148" y="310" width="184" height="70" rx="18" fill="#F3F4F6"/>
+  <rect x="160" y="326" width="60" height="8" rx="4" fill="#A2B5C7"/>
+  <rect x="160" y="344" width="110" height="8" rx="4" fill="#007EFC"/>
+  <!-- CTI dashboard -->
+  <rect x="390" y="110" width="300" height="220" rx="24" fill="#0B2239"/>
+  <rect x="408" y="130" width="180" height="12" rx="6" fill="#E5E7EB" fill-opacity="0.8"/>
+  <rect x="408" y="152" width="140" height="8" rx="4" fill="#007EFC"/>
+  <!-- Threat bar chart -->
+  <rect x="420" y="190" width="18" height="70" rx="6" fill="#007EFC"/>
+  <rect x="450" y="180" width="18" height="80" rx="6" fill="#22C55E"/>
+  <rect x="480" y="200" width="18" height="60" rx="6" fill="#FACC15"/>
+  <rect x="510" y="165" width="18" height="95" rx="6" fill="#F97316"/>
+  <rect x="540" y="210" width="18" height="50" rx="6" fill="#E5E7EB"/>
+  <!-- Exclamation / alert badge -->
+  <circle cx="650" cy="150" r="22" fill="#F97316"/>
+  <path d="M650 136L658 158H642L650 136Z" fill="white"/>
+  <rect x="646" y="160" width="8" height="10" rx="2" fill="white"/>
+  <!-- Log lines -->
+  <rect x="420" y="280" width="230" height="12" rx="6" fill="#FFFFFF" fill-opacity="0.06"/>
+  <rect x="420" y="300" width="190" height="10" rx="5" fill="#FFFFFF" fill-opacity="0.06"/>
+</svg>

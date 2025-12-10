@@ -1,0 +1,43 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#FFFFFF"/>
+  <!-- Top bar -->
+  <rect x="0" y="0" width="800" height="90" rx="32" fill="#0F2D4B"/>
+  <rect x="60" y="30" width="300" height="18" rx="9" fill="#FFFFFF" fill-opacity="0.9"/>
+  <rect x="60" y="56" width="220" height="8" rx="4" fill="#A2B5C7"/>
+  <!-- Left: breach summary panel -->
+  <rect x="60" y="130" width="320" height="150" rx="18" fill="#F3F4F6"/>
+  <rect x="80" y="150" width="200" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="80" y="170" width="240" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="80" y="190" width="220" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="80" y="210" width="180" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="80" y="230" width="160" height="8" rx="4" fill="#CBD5E1"/>
+  <!-- Right: padlock & data elements -->
+  <rect x="420" y="130" width="320" height="260" rx="20" fill="#F9FAFB"/>
+  <!-- Lock -->
+  <rect x="540" y="165" width="80" height="60" rx="20" fill="#0F2D4B"/>
+  <rect x="553" y="145" width="54" height="38" rx="18" fill="#0B2239"/>
+  <rect x="565" y="178" width="30" height="32" rx="8" fill="#007EFC"/>
+  <circle cx="580" cy="196" r="5" fill="#FFFFFF"/>
+  <!-- Data blocks -->
+  <rect x="445" y="165" width="70" height="30" rx="10" fill="#E5E7EB"/>
+  <rect x="640" y="165" width="70" height="30" rx="10" fill="#E5E7EB"/>
+  <rect x="445" y="215" width="70" height="30" rx="10" fill="#E5E7EB"/>
+  <rect x="640" y="215" width="70" height="30" rx="10" fill="#E5E7EB"/>
+  <!-- Connecting lines -->
+  <line x1="515" y1="180" x2="540" y2="185" stroke="#A2B5C7" stroke-width="2"/>
+  <line x1="620" y1="180" x2="620" y2="185" stroke="#A2B5C7" stroke-width="2"/>
+  <line x1="515" y1="230" x2="540" y2="210" stroke="#A2B5C7" stroke-width="2"/>
+  <line x1="620" y1="230" x2="620" y2="210" stroke="#A2B5C7" stroke-width="2"/>
+  <!-- Bottom: cost & law references -->
+  <rect x="60" y="300" width="320" height="110" rx="18" fill="#0F2D4B" fill-opacity="0.04"/>
+  <rect x="80" y="320" width="210" height="10" rx="5" fill="#0F2D4B" fill-opacity="0.8"/>
+  <rect x="80" y="340" width="250" height="8" rx="4" fill="#A2B5C7"/>
+  <rect x="80" y="360" width="200" height="8" rx="4" fill="#CBD5E1"/>
+  <!-- Law icon -->
+  <rect x="420" y="320" width="320" height="90" rx="18" fill="#0F2D4B" fill-opacity="0.06"/>
+  <rect x="440" y="340" width="150" height="10" rx="5" fill="#A2B5C7"/>
+  <rect x="440" y="360" width="200" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="440" y="380" width="150" height="8" rx="4" fill="#CBD5E1"/>
+  <path d="M690 332H670L660 350V380H700V350L690 332Z" fill="#007EFC"/>
+  <rect x="675" y="350" width="20" height="20" fill="white" fill-opacity="0.9"/>
+</svg>

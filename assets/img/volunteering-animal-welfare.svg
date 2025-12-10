@@ -1,0 +1,36 @@
+<svg width="800" height="420" viewBox="0 0 800 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="420" rx="28" fill="#0F2D4B"/>
+  <!-- Ground -->
+  <rect x="0" y="250" width="800" height="170" fill="#0B2239"/>
+  <!-- Human figure kneeling -->
+  <circle cx="250" cy="150" r="30" fill="#F9FAFB"/>
+  <rect x="235" y="180" width="30" height="60" rx="10" fill="#F9FAFB"/>
+  <rect x="215" y="220" width="70" height="80" rx="20" fill="#E5E7EB"/>
+  <!-- Arm reaching out -->
+  <path d="M270 205C295 210 310 220 320 235" stroke="#F9FAFB" stroke-width="10" stroke-linecap="round"/>
+  <!-- Dog figure -->
+  <rect x="340" y="220" width="110" height="60" rx="22" fill="#FBBF77"/>
+  <circle cx="340" cy="220" r="26" fill="#FBBF77"/>
+  <circle cx="334" cy="214" r="6" fill="#0F172A"/>
+  <circle cx="346" cy="214" r="6" fill="#0F172A"/>
+  <rect x="336" y="226" width="16" height="6" rx="3" fill="#0F172A"/>
+  <!-- Dog tail -->
+  <path d="M450 240C465 235 475 230 482 220" stroke="#FBBF77" stroke-width="8" stroke-linecap="round"/>
+  <!-- Heart between human and dog -->
+  <path d="M310 185C304 175 290 174 283 183C276 191 277 204 287 212L297 220L307 212C317 204 318 191 311 183C305 176 296 175 290 180"
+        fill="#EF4444"/>
+  <!-- Shelter / home outline -->
+  <path d="M520 260V190L590 150L660 190V260" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="540" y="210" width="100" height="70" rx="8" fill="#FFFFFF" fill-opacity="0.1"/>
+  <rect x="560" y="225" width="60" height="10" rx="5" fill="#E5E7EB"/>
+  <rect x="560" y="245" width="40" height="8" rx="4" fill="#007EFC"/>
+  <!-- Paw icon inside shelter -->
+  <circle cx="590" cy="200" r="10" fill="#E5E7EB"/>
+  <circle cx="585" cy="196" r="3" fill="#0F2D4B"/>
+  <circle cx="595" cy="196" r="3" fill="#0F2D4B"/>
+  <circle cx="589" cy="203" r="3" fill="#0F2D4B"/>
+  <circle cx="591" cy="203" r="3" fill="#0F2D4B"/>
+  <!-- Small info bar at bottom -->
+  <rect x="220" y="320" width="360" height="26" rx="13" fill="#FFFFFF" fill-opacity="0.08"/>
+  <rect x="232" y="326" width="220" height="10" rx="5" fill="#CBD5E1"/>
+</svg>
