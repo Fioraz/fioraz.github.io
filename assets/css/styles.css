@@ -527,7 +527,7 @@ body.dark .chip {
    ========================= */
 
 .portfolio-tabs {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 0.4rem;
   padding: 0.25rem;
@@ -541,6 +541,7 @@ body.dark .portfolio-tabs {
 }
 
 .tab-button {
+  flex: 1 1 100%;
   border: none;
   background: transparent;
   padding: 0.4rem 0.9rem;
@@ -905,17 +906,26 @@ body.dark .form-textarea {
 
 @media (max-width: 768px) {
   .main-nav {
-    position: fixed;
-    inset: 3.4rem 0 auto;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
     background-color: #0b1725;
-    transform: translateY(-110%);
-    transition: transform var(--transition-med);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.25s ease, opacity 0.25s ease;
     box-shadow: 0 12px 32px rgba(0, 0, 0, 0.4);
-    padding: 0.9rem 1.5rem 0.8rem;
+    padding: 0 1.5rem 0.5rem; /* top padding calculated by content */
+    z-index: 900;
   }
 
   .main-nav.open {
-    transform: translateY(0);
+    max-height: 260px; /* enough for all links */
+    opacity: 1;
+    pointer-events: auto;
+    padding-top: 0.9rem;
   }
 
   .nav-list {
@@ -930,6 +940,7 @@ body.dark .form-textarea {
 
   .nav-toggle {
     display: flex;
+    z-index: 1000; /* above the dropdown */
   }
 
   .contact-layout {
