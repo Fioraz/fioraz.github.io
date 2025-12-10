@@ -527,7 +527,7 @@ body.dark .chip {
    ========================= */
 
 .portfolio-tabs {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 0.4rem;
   padding: 0.25rem;
@@ -541,7 +541,7 @@ body.dark .portfolio-tabs {
 }
 
 .tab-button {
-  flex: 1 1 100%;
+  flex: 0 0 auto;
   border: none;
   background: transparent;
   padding: 0.4rem 0.9rem;
@@ -947,6 +947,11 @@ body.dark .form-textarea {
     gap: 2rem;
   }
 
+  .reveal-on-scroll {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+
   .section {
     padding: 3.5rem 0 3rem;
   }
@@ -959,5 +964,18 @@ body.dark .form-textarea {
 
   .scroll-top {
     bottom: 1.2rem;
+  }
+
+  .portfolio-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 16px; /* less pill-like to fit multiple rows */
+  }
+
+  .tab-button {
+    flex: 1 1 45%;    /* two per row */
+    text-align: center;
+    margin: 0.1rem 0;
   }
 }
