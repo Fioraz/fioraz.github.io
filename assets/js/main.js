@@ -73,54 +73,50 @@ document.addEventListener("DOMContentLoaded", () => {
   const footerEl = document.querySelector(".site-footer");
 
   if (scrollBtn) {
-    let baseBottom = null; // px value of the default bottom offset
+    let baseBottom = parseFloat(getComputedStyle(scrollBtn).bottom) || 26; // default from CSS
 
-    const updateScrollBtnPosition = () => {
-      if (!baseBottom) {
-        // Read the default bottom value from CSS (in px)
-        baseBottom = parseFloat(getComputedStyle(scrollBtn).bottom) || 26;
-      }
-
-      // Show / hide button based on scroll
+    const updateScrollBtn = () => {
+      // Show/hide
       if (window.scrollY > 250) {
         scrollBtn.classList.add("visible");
       } else {
         scrollBtn.classList.remove("visible");
       }
 
+      // If no footer, just use base position
       if (!footerEl) {
         scrollBtn.style.bottom = `${baseBottom}px`;
         return;
       }
 
-      const footerRect = footerEl.getBoundingClientRect();
-      const btnRect = scrollBtn.getBoundingClientRect();
-      const buttonHeight = btnRect.height;
+      const vh = window.innerHeight;
+      const footerTop = footerEl.getBoundingClientRect().top; // px from top of viewport
+      const btnHeight = scrollBtn.offsetHeight;
 
-      // Button position if we leave it at its baseBottom from CSS
-      const buttonTopAtBase = window.innerHeight - baseBottom - buttonHeight;
+      // Where the button's center would be with the default bottom offset
+      const defaultCenterY = vh - baseBottom - btnHeight / 2;
 
-      // If the footer is high enough that the button would overlap it,
-      // move the button up so only half of its height enters the footer area.
-      if (footerRect.top < buttonTopAtBase + buttonHeight / 2) {
-        // Desired top so that half the button overlaps into the footer
-        const desiredTop = footerRect.top - buttonHeight / 2;
-        const newBottom = window.innerHeight - desiredTop - buttonHeight;
-
-        scrollBtn.style.bottom = `${Math.max(newBottom, baseBottom)}px`;
-      } else {
-        // Reset to original CSS position
+      // If footer is below that line, no adjustment needed
+      if (footerTop > defaultCenterY) {
         scrollBtn.style.bottom = `${baseBottom}px`;
+        return;
       }
+
+      // Otherwise, clamp the button so its center sits exactly at the footer top
+      // centerY = vh - (newBottom + btnHeight/2) = footerTop
+      const newBottom = vh - footerTop - btnHeight / 2;
+
+      // Ensure we never move it lower than the base position
+      scrollBtn.style.bottom = `${Math.max(newBottom, baseBottom)}px`;
     };
 
-    window.addEventListener("scroll", updateScrollBtnPosition);
+    window.addEventListener("scroll", updateScrollBtn);
     window.addEventListener("resize", () => {
-      baseBottom = null; // recalc on resize
-      updateScrollBtnPosition();
+      baseBottom = parseFloat(getComputedStyle(scrollBtn).bottom) || baseBottom;
+      updateScrollBtn();
     });
 
-    updateScrollBtnPosition();
+    updateScrollBtn();
 
     scrollBtn.addEventListener("click", () => {
       window.scrollTo({
