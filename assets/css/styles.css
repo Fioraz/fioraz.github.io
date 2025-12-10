@@ -974,7 +974,7 @@ body.dark .form-textarea {
   }
 
   .tab-button {
-    flex: 1 1 45%;    /* two per row */
+    flex: 1 1 100%;    /* two per row */
     text-align: center;
     margin: 0.1rem 0;
   }
